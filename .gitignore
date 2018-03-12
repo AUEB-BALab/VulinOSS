@@ -1,0 +1,5 @@
+vulinoss/cloc_error_log.txt
+*.pyc
+lib/
+temp/*
+vulinoss/test/.cache/
