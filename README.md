@@ -6,7 +6,7 @@ This ***README*** file presents how researchers can use this repository for:
  * using the provided source code to build the dataset from scratch. 
 
 ## Import the VulinOSS dataset
-The *dataset* directory contains the SQL dump of the VulinOSS database. It's a self-contained file that includes the db schema and thus, it can be directly restored in one step.
+The *dataset* directory contains the SQL dump of the VulinOSS database. It's a self-contained file that includes the db schema and thus, it can be directly restored in one step. Additionally, there is a *notebook* included in the repository that demonstrates how the dataset can be harnessed in order to extract interesting information.  
 
 ## Build the dataset from scratch
 The *src* directory contains the python scripts and the necessary data *.csv* for generating the VulinOSS dataset. 
@@ -21,6 +21,7 @@ Moreover, the following python modules are also required:
  * pymysql
  * colorama
  * codecs
+ * jupyter (if you want to run the provided notebook)
 
 ### Generate the dataset and populate the database
 To generate the VulinOSS dataset the following steps are required:
